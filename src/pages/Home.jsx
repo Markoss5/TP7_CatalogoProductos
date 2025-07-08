@@ -25,19 +25,12 @@ function Home() {
         </div>
       </section>
 
-      {/* PRODUCTOS DESTACADOS */}
-      <section className="apple-featured" id="destacados">
+        <section className="apple-featured" id="destacados">
         <div className="apple-featured__grid">
           <div className="apple-feature-card">
             <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="Mochila" />
             <h2>Mochila de Aventura</h2>
             <p>Ideal para viajes, resistente y cómoda para todo tipo de actividades.</p>
-            <a className="apple-link" href="#">Saber más</a>
-          </div>
-          <div className="apple-feature-card">
-            <img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg" alt="Reloj Moderno" />
-            <h2>Reloj Moderno</h2>
-            <p>Elegante, preciso y perfecto para cualquier ocasión.</p>
             <a className="apple-link" href="#">Saber más</a>
           </div>
         </div>
