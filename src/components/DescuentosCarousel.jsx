@@ -1,22 +1,23 @@
 import { useEffect, useRef, useState } from "react";
+
 const DESCUENTOS = [
   {
     id: 1,
-    titulo: "¡10% OFF en iPhone 15 Pro!",
-    texto: "Aprovecha el mejor precio del año. Solo por tiempo limitado.",
-    img: "https://www.apple.com/v/iphone-15-pro/a/images/overview/hero/hero_iphone15pro__i70z9oz3hj2i_large.jpg"
+    titulo: "¡20% OFF en Mochilas Deportivas!",
+    texto: "Aprovecha el mejor precio del mes. Stock limitado.",
+    img: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
   },
   {
     id: 2,
-    titulo: "Descuento en MacBook Air",
-    texto: "15% OFF en MacBook Air M2, potencia y elegancia a tu alcance.",
-    img: "https://www.apple.com/v/macbook-air-13-and-15-m2/a/images/overview/hero/macbook_air_hero__fx5x4xw2fu2u_large.jpg"
+    titulo: "Descuento en Relojes Modernos",
+    texto: "15% OFF en relojes de moda para todos los estilos.",
+    img: "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
   },
   {
     id: 3,
-    titulo: "Apple Watch Series 9 con 20% OFF",
-    texto: "Salud y tecnología en tu muñeca. Promoción exclusiva online.",
-    img: "https://www.apple.com/v/apple-watch-series-9/a/images/overview/hero/hero_watch_series_9__x5wo4ptz2giu_large.jpg"
+    titulo: "Gafas de Sol con 20% OFF",
+    texto: "Protege tu vista y luce increíble este verano.",
+    img: "https://fakestoreapi.com/img/71U7T1koLUL._AC_UL640_QL65_ML3_.jpg"
   }
 ];
 

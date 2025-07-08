@@ -3,9 +3,9 @@ function QuienesSomos() {
     <div className="apple-aboutpage">
       <section className="apple-about__hero">
         <div className="apple-about__hero-center">
-          <h1 className="apple-about__title">Nuestra Historia</h1>
+          <h1 className="apple-about__title">Sobre Nosotros</h1>
           <p className="apple-about__subtitle">
-            Inspirados por la innovación y el diseño.
+            Inspirados por la variedad y accesibilidad.
           </p>
         </div>
       </section>
@@ -13,25 +13,24 @@ function QuienesSomos() {
       <section className="apple-about__content">
         <div className="apple-about__imgbox">
           <img
-            src="https://www.apple.com/v/home/ab/images/promos/iphone-15-pro/promo_iphone15pro__e48p7n5x6mky_large.jpg"
-            alt="Equipo trabajando"
+            src="https://static.vecteezy.com/system/resources/previews/020/662/330/original/store-icon-logo-illustration-vector.jpg"
           />
         </div>
         <div className="apple-about__text">
           <h2>Nuestra misión</h2>
           <p>
-            En <b>Apple Inspired Store</b>, creemos que la tecnología debe ser sencilla, elegante y poderosa. 
-            Desde nuestros inicios, nos propusimos acercar las mejores experiencias tecnológicas a las personas, ofreciendo productos y servicios que marcan la diferencia.
+            En <b>MarcoShops</b>, buscamos acercar productos de calidad a todos, con confianza y buen precio.
+            Desde nuestros inicios, nos propusimos ofrecer experiencias de compra sencillas y satisfactorias.
           </p>
           <h2>Nuestros valores</h2>
           <ul>
-            <li>Innovación constante</li>
-            <li>Diseño centrado en el usuario</li>
-            <li>Compromiso con la calidad</li>
-            <li>Responsabilidad social y ambiental</li>
+            <li>Variedad de productos</li>
+            <li>Atención al cliente</li>
+            <li>Precios accesibles</li>
+            <li>Compromiso con la satisfacción</li>
           </ul>
           <p>
-            Nuestro equipo está formado por soñadores, creadores y especialistas que buscan superar los límites en todo momento.
+            Nuestro equipo está formado por personas apasionadas que buscan facilitar tu experiencia de compra.
           </p>
         </div>
       </section>

@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar__container">
-        <Link to="/" className="navbar__logo">MiCatálogo</Link>
+        <Link to="/" className="navbar__logo">MarcoShops</Link>
         <nav className={`navbar__nav ${menuOpen ? "navbar__nav--open" : ""}`}>
           <NavLink to="/" className="navbar__link" onClick={() => setMenuOpen(false)}>Home</NavLink>
           <NavLink to="/quienes-somos" className="navbar__link" onClick={() => setMenuOpen(false)}>Quiénes somos</NavLink>

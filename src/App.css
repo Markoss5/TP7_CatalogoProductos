@@ -431,3 +431,225 @@ a:hover { color: var(--color-secondary); }
   .products { padding: 0 .2rem;}
   .contact { padding: 1.2rem .5rem;}
 }
+
+/* HOME */
+.apple-home {
+  width: 100%;
+  background: #f7f9fb;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+.apple-hero {
+  min-height: 60vh;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  position: relative;
+  background: linear-gradient(90deg, #dbeafe 0%, #f1f5f9 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+}
+
+.hero-video {
+  width: 100vw;
+  height: 60vh;
+  object-fit: cover;
+  border-radius: 0;
+  box-shadow: none;
+  display: block;
+}
+.apple-featured__grid {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  margin: 2.5rem 0;
+  flex-wrap: wrap;
+}
+.apple-feature-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px #0002, 0 1.5px 8px #0001;
+  padding: 2rem 1.5rem;
+  width: 300px;
+  text-align: center;
+  transition: box-shadow .21s, transform .17s;
+}
+.apple-feature-card img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  margin-bottom: 1.2rem;
+}
+.apple-feature-card h2 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 0.7rem;
+}
+.apple-feature-card p {
+  color: #444;
+  font-size: 1.08rem;
+  margin-bottom: 1rem;
+}
+.apple-link {
+  color: var(--color-primary, #005bb5);
+  text-decoration: underline;
+}
+.apple-calltoaction {
+  text-align: center;
+  margin: 3rem 0 1.5rem 0;
+}
+.apple-cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1.05rem 2.1rem;
+  border-radius: 8px;
+  background: var(--color-secondary, #005bb5);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.12rem;
+  text-decoration: none;
+  transition: background .19s;
+}
+.apple-cta--dark {
+  background: #003366;
+}
+.apple-cta:hover {
+  background: #0071e3;
+}
+
+/* QUIENES SOMOS */
+.apple-aboutpage {
+  width: 100%;
+  background: #f9fafb;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+.apple-about__hero {
+  min-height: 220px;
+  background: linear-gradient(90deg, #e0e7ff 0%, #f1f5f9 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.apple-about__hero-center {
+  text-align: center;
+}
+.apple-about__title {
+  font-size: 2.3rem;
+  font-weight: 900;
+  color: var(--color-primary, #005bb5);
+  margin-bottom: 0.6rem;
+}
+.apple-about__subtitle {
+  color: #666;
+  font-size: 1.1rem;
+}
+.apple-about__content {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 2rem;
+  flex-wrap: wrap;
+}
+.apple-about__imgbox img {
+  width: 240px;
+  border-radius: 1rem;
+  box-shadow: 0 5px 20px #0001;
+}
+.apple-about__text {
+  max-width: 480px;
+}
+.apple-about__footercta {
+  text-align: center;
+  margin: 3rem 0 1.5rem 0;
+}
+
+.apple-hero.hero-landing {
+  position: relative;
+  min-height: 60vh;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background: linear-gradient(90deg, #dbeafe 0%, #f1f5f9 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  min-height: 60vh;
+  background: linear-gradient(120deg, #091f42dd 60%, #1e3a8add 100%);
+  z-index: 1;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.hero-video {
+  width: 100vw;
+  height: 60vh;
+  min-height: 360px;
+  object-fit: cover;
+  border-radius: 0;
+  box-shadow: none;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  width: 100vw;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+  margin-bottom: 1.3rem;
+  text-shadow: 0 2px 24px #0007, 0 1px 2px #0009;
+  line-height: 1.1;
+}
+
+.hero-desc {
+  font-size: 1.45rem;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 720px;
+  margin: 0 auto;
+  text-shadow: 0 3px 14px #0006;
+  background: rgba(0,0,0,0.07);
+  border-radius: 12px;
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 900px) {
+  .hero-title { font-size: 2.1rem; }
+  .hero-desc { font-size: 1.05rem; padding: 0.7rem 0.8rem; }
+  .hero-video, .hero-overlay { height: 45vh; min-height: 180px;}
+  .apple-hero.hero-landing { min-height: 45vh; }
+}

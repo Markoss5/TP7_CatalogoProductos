@@ -1,28 +1,43 @@
-import { Link } from "react-router-dom";
-
-import DescuentosCarousel from "../components/DescuentosCarousel";
+import videoLanding from '../assets/Videos/VideoLanding.mp4';
 
 function Home() {
   return (
     <div className="apple-home">
-      {/* HERO CON CARROUSEL */}
-      <section className="apple-hero" style={{minHeight: "calc(60vh + 100px)", display: "flex", alignItems: "center", justifyContent: "center"}}>
-        <DescuentosCarousel />
+      <section className="apple-hero hero-landing">
+        <div className="hero-overlay" />
+        <video
+          className="hero-video"
+          src={videoLanding}
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          Tu navegador no soporta el video.
+        </video>
+        <div className="hero-content">
+          <h1 className="hero-title">¡Bienvenido a MarcoShops!</h1>
+          <p className="hero-desc">
+            Descubrí la experiencia definitiva en compras online.<br />
+            Productos seleccionados, empaque profesional y entrega garantizada.<br />
+            <b>Optimizá tu negocio o tu hogar con la mejor atención personalizada y el respaldo de un equipo apasionado por la excelencia.</b>
+          </p>
+        </div>
       </section>
 
       {/* PRODUCTOS DESTACADOS */}
       <section className="apple-featured" id="destacados">
         <div className="apple-featured__grid">
           <div className="apple-feature-card">
-            <img src="https://www.apple.com/v/iphone-15-pro/a/images/overview/hero/hero_iphone15pro__i70z9oz3hj2i_large.jpg" alt="iPhone" />
-            <h2>iPhone 15 Pro</h2>
-            <p>Titanio. Cámara revolucionaria. Rendimiento Pro.</p>
+            <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="Mochila" />
+            <h2>Mochila de Aventura</h2>
+            <p>Ideal para viajes, resistente y cómoda para todo tipo de actividades.</p>
             <a className="apple-link" href="#">Saber más</a>
           </div>
           <div className="apple-feature-card">
-            <img src="https://www.apple.com/v/macbook-air-13-and-15-m2/a/images/overview/hero/macbook_air_hero__fx5x4xw2fu2u_large.jpg" alt="MacBook Air" />
-            <h2>MacBook Air</h2>
-            <p>Ligero. Potente. Increíblemente portátil.</p>
+            <img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg" alt="Reloj Moderno" />
+            <h2>Reloj Moderno</h2>
+            <p>Elegante, preciso y perfecto para cualquier ocasión.</p>
             <a className="apple-link" href="#">Saber más</a>
           </div>
         </div>
