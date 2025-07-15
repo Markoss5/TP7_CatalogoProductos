@@ -198,6 +198,22 @@ a:hover { color: var(--color-secondary); }
   transform: translateY(-2px) scale(1.04);
 }
 
+.button-primary {
+  padding: 0.78rem 2.5rem;
+  border-radius: 2.2rem;
+  border: none;
+  background: linear-gradient(90deg, var(--amarillo), var(--naranja));
+  color: var(--azul-oscuro);
+  font-size: 1.09rem;
+  font-weight: 700;
+  box-shadow: 0 2px 18px 0 rgba(255,183,3,0.14);
+  cursor: pointer;
+  transition: background .18s, box-shadow .18s, color .18s;
+  text-decoration: none;
+  letter-spacing: .03em;
+  outline: none;
+}
+
 /* Productos grid */
 .products {
   max-width: 1220px;

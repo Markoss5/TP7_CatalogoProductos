@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function QuienesSomos() {
   return (
     <div className="apple-aboutpage">
@@ -37,7 +39,7 @@ function QuienesSomos() {
 
       <section className="apple-about__footercta">
         <h2>¿Quieres formar parte de nuestra historia?</h2>
-        <a href="/contacto" className="apple-cta">Contáctanos</a>
+        <Link className="button-primary" to="/contacto">Contactanos</Link>
       </section>
     </div>
   );

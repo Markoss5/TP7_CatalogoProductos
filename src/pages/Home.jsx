@@ -1,5 +1,5 @@
 import videoLanding from '../assets/Videos/VideoLanding.mp4';
-
+import { Link } from 'react-router-dom';
 function Home() {
   return (
     <div className="apple-home">
@@ -38,7 +38,7 @@ function Home() {
 
       <section className="apple-calltoaction">
         <h2>¿Listo para descubrir más?</h2>
-        <a className="apple-cta apple-cta--dark" href="/productos">Ir al catálogo</a>
+        <Link className="button-primary" to="/productos">Ver Productos</Link>
       </section>
     </div>
   );
